@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Flask Calculator</title>
+</head>
+<body>
+    <h1>Welcome to the Simple Flask Calculator!</h1>
+
+    <form action="/calculate" method="post">
+        <label for="num1">Enter the first number:</label>
+        <input type="number" id="num1" name="num1" required><br>
+
+        <label for="operation">Select the operation:</label>
+        <select id="operation" name="operation" required>
+            <option value="add">Addition (+)</option>
+            <option value="subtract">Subtraction (-)</option>
+            <option value="multiply">Multiplication (*)</option>
+            <option value="divide">Division (/)</option>
+        </select><br>
+
+        <label for="num2">Enter the second number:</label>
+        <input type="number" id="num2" name="num2" required><br>
+
+        <input type="submit" value="Calculate">
+    </form>
+
+</body>
+</html>
