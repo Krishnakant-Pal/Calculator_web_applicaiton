@@ -28,11 +28,6 @@ The Flask Calculator is a simple web application that allows users to perform ba
 - Division by zero: The calculator displays an error message if you attempt to divide a number by zero.
 - Invalid input: The calculator checks for valid numerical input and displays an error message for non-numeric characters.
 
-## Sample Screenshots
-
-![Calculator Home](/screenshots/calculator_home.png)
-![Calculator Result](/screenshots/calculator_result.png)
-
 ## Dependencies
 
 - Flask (v1.1.2 or higher)
